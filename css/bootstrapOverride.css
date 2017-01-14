@@ -1,0 +1,23 @@
+/* for Mobiles */
+@media (max-width: 767px) {
+    .logoImg{
+        min-width:80px;
+        max-width: 250px;
+    }
+}
+/*Rest of device*/
+@media (min-width: 768px) {
+    .logoImg{
+        min-width:80px;
+        max-width: 250px;
+    }
+}
+.logoImg{
+    width:190px;
+    position: relative;
+    top:-12px;
+}
+.navbar{
+    background: #fff;
+    height: 60px;
+}

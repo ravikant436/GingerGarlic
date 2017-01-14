@@ -1,0 +1,79 @@
+/* All mobiles*/
+@media only screen
+and (max-width : 767px) {
+    /* Styles */
+    .bigBlogBox .boxHeading{
+        font-size:20px;
+    }
+    .bigBlogBox .authorSection .authorNameDiv{
+        padding-top:0px;
+    }
+
+    .semiBlogBox img,.miniBlogBox img{
+         width:100%;
+         height: 110px;
+     }
+    .semiBlogBox .boxHeading,.miniBlogBox .boxHeading{
+        margin:0px;
+        font-size:14px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding:5px;
+    }
+    .semiBlogBox .dateSpan,.miniBlogBox .dateSpan{
+        font-style: italic;
+        color:#708090;
+        font-size:11px;
+    }
+    #subscribeDiv span{
+        font-size:18px;
+    }
+    #subscribeHeading{
+        margin-bottom: 15px;
+    }
+    #footer{
+        height:350px;
+    }
+    #footer #foreGround{
+        height:350px;
+    }
+
+}
+
+/* Small Mobile */
+@media only screen
+and (max-width : 480px) {
+    /* Styles */
+    .dairyBox{
+        background-size: 400px 250px;
+    }
+    .sweetBox{
+        background-size: 400px 250px;
+    }
+    .ketosBox{
+        background-size: 400px 250px;
+    }
+    .veganBox{
+        background-size: 400px 250px;
+    }
+}
+
+
+/* Big mobile */
+@media only screen
+and (min-width : 481px)
+and (max-width : 767px) {
+    /* Styles */
+    .dairyBox{
+        background-size: 700px 400px;
+    }
+    .sweetBox{
+        background-size: 700px 400px;
+    }
+    .ketosBox{
+        background-size: 700px 400px;
+    }
+    .veganBox{
+        background-size: 700px 400px;
+    }
+}
